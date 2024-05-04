@@ -67,6 +67,9 @@
     .input{
       width: 300px;
     }
+    .input-box{
+      width: 300px;
+    }
   }
   @media (min-width: 577px) {
     .input-section {
