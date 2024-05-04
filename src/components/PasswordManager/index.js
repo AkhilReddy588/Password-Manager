@@ -10,7 +10,7 @@ class PassWordManger extends Component {
     password: '',
     passwordsList: [],
     show: false,
-    searchInput: '',
+    searchInput: '', 
   }
 
   onChangeWebsite = event => {
