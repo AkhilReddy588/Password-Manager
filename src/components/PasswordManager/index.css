@@ -65,7 +65,7 @@
   }
   @media(max-width: 576px){
     .input{
-      width: 80%;
+      width: 300px;
     }
   }
   @media (min-width: 577px) {
