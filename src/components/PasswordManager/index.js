@@ -175,7 +175,7 @@ class PassWordManger extends Component {
           )}
 
           {count > 0 && (
-            <ul className="all-passwords">
+            <div className="all-passwords">
               {searchResults.map(eachItem => (
                 <PasswordItem
                   deletePassword={this.deletePassword}
@@ -184,7 +184,7 @@ class PassWordManger extends Component {
                   key={eachItem.id}
                 />
               ))}
-            </ul>
+            </div>
           )}
         </div>
       </div>

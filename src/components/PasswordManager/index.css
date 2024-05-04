@@ -141,6 +141,20 @@
     width: 150px;
     margin-left: 5px;
   }
+  @media(max-width:576px){
+    .hed2{
+      font-size: 13px;
+    }
+    .span-el{
+      margin-left: 0px;
+    }
+    .search{
+      width: 110px;
+    }
+    .search-input{
+      width: 110px;
+    }
+  }
   .line {
     border: 2px solid #c3caea;
     width: 100%;

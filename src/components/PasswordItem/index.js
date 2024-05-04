@@ -7,7 +7,7 @@ const PasswordItem = props => {
     deletePassword(id)
   }
   return (
-    <li className="li">
+    <div className="li">
       <p className="name-logo">{website[0].toUpperCase()}</p>
       <div className="content">
         <p className="website">{website}</p>
@@ -33,7 +33,7 @@ const PasswordItem = props => {
           className="delete-icon"
         />
       </button>
-    </li>
+    </div>
   )
 }
 
