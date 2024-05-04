@@ -65,10 +65,10 @@
   }
   @media(max-width: 576px){
     .input{
-      width: 300px;
+      width: 200px;
     }
     .input-box{
-      width: 300px;
+      width: 200px;
     }
   }
   @media (min-width: 577px) {
